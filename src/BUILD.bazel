@@ -65,8 +65,8 @@ ts_devserver(
     static_files = [
         "@npm//node_modules/zone.js:dist/zone.min.js",
         "@npm//node_modules/tslib:tslib.js",
+        "index.html",
     ],
-    index_html = "index.html",
     deps = [":src"],
 )
 

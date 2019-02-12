@@ -19,7 +19,7 @@ http_archive(
     strip_prefix = "rules_nodejs-%s" % RULES_NODEJS_VERSION,
 )
 
-RULES_TYPESCRIPT_VERSION = "0.22.1"
+RULES_TYPESCRIPT_VERSION = "0.22.0"
 http_archive(
     name = "build_bazel_rules_typescript",
     url = "https://github.com/bazelbuild/rules_typescript/archive/%s.zip" % RULES_TYPESCRIPT_VERSION,
